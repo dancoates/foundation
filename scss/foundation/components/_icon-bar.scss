@@ -66,6 +66,12 @@ $icon-bar-item-padding: 1.25rem !default;
 			height: $icon-bar-image-height;
 		}
 	}
+	// Strip the left and right padding to give the text in each icon more space
+	// This doesn't work out on vertical bars because the padding is what gives the bar its width
+	&:not(.vertical) > a {
+		padding-left: 0;
+		padding-right: 0;
+	}
 
 	&.label-right > * {
 
