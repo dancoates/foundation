@@ -29,7 +29,7 @@
     "package.json",
     "robots.txt",
     "run-tests.sh",
-    "stache.json",
+    "sache.json",
     "vendor"
   ],
   "devDependencies": {
