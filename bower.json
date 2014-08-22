@@ -12,6 +12,26 @@
     "jquery.cookie": "~1.4.0",
     "jquery-placeholder": "~2.0.7"
   },
+  "ignore" : [
+    "doc",
+    "lib",
+    "spec",
+    ".editorconfig",
+    ".gitignore",
+    ".travis.yml",
+    "composer.json",
+    "CONTRIBUTING.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "Gruntfile.js",
+    "humans.txt",
+    "karma.conf.js",
+    "package.json",
+    "robots.txt",
+    "run-tests.sh",
+    "stache.json",
+    "vendor"
+  ],
   "devDependencies": {
     "jquery.autocomplete": "devbridge/jQuery-Autocomplete#1.2.9",
     "lodash": "~2.4.1"
