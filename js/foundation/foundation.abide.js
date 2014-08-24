@@ -221,6 +221,8 @@
         }
       }
 
+      validations = [validations.every(function(valid){return valid;})];
+
       return validations;
     },
 
